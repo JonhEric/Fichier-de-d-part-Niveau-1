@@ -1,0 +1,36 @@
+/* Paramètres Généraux */
+
+:root{
+    --color-primary: #1179A3;
+    --color-secondary: #EA6143;
+    --color-tertiary: #fefeff;
+}  
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url();
+}
+
+*::selection{
+    background: var(--color-primary);
+    color: #fefeff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-primary);
+    color: #fefeff;
+}
+
+/* Paramètres par ordre d'apparition */
+
