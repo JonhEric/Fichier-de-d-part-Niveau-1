@@ -117,7 +117,7 @@ img{
     background-color: var(--color-secondary); 
     border-radius: 5px;
     box-shadow: 0 6px rgba(0, 0, 0);   
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease;
 
 }
 
